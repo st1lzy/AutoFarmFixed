@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "autofarmmod",
+  "version": "1.0.0",
+  "name": "AutoFarm Mod",
+  "description": "Мод для автофарма в Minecraft 1.16.5",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.Apexex.AutoFarmMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
